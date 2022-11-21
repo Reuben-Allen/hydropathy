@@ -1,5 +1,5 @@
 # Compute Hydropathy Plot for a Protein
-Plotting the hydropathy of a protein along its sequence can give basic insight into the its structure. Hydropathy plots are especially useful for quickly predicting transmembrane domains. The calculation is simple, the hydropathy for
+Plotting the hydropathy of a protein along its sequence can give basic insight into the its structure. Hydropathy plots are especially useful for quickly predicting transmembrane domains. The calculation is simple; the hydropathy for
 a particular residue number n is calculated by taking the mean of the
 n-i to n+i residues, where i is supplied by the user. The hydropathy of each amino acid is given in the following dictionary:
 ```
