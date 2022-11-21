@@ -28,10 +28,11 @@ amine_dict = {
 ```
 To get started, simply run the code and follow the prompts.
 ## Example:
-To see how hydropathy plots can be used to predict structure, the following example will generate the plot for the protein rhodopsin from *Homo sapiens* (gene OPN2). As expected, the 
+To see how hydropathy plots can be used to predict structure, the following example will generate the plot for the protein rhodopsin from *Homo sapiens* (gene OPN2). As expected, the plot produces seven major peaks, which correspond to the seven transmembrane helices of rhodopsin.
 ```
 Enter the amino acid sequence as a continuous string of single letter abbreviations:
 MNGTEGPNFYVPFSNATGVVRSPFEYPQYYLAEPWQFSMLAAYMFLLIVLGFPINFLTLYVTVQHKKLRTPLNYILLNLAVADLFMVLGGFTSTLYTSLHGYFVFGPTGCNLEGFFATLGGEIALWSLVVLAIERYVVVCKPMSNFRFGENHAIMGVAFTWVMALACAAPPLAGWSRYIPEGLQCSCGIDYYTLKPEVNNESFVIYMFVVHFTIPMIIIFFCYGQLVFTVKEAAAQQQESATTQKAEKEVTRMVIIMVIAFLICWVPYASVAFYIFTHQGSNFGPIFMTIPAFFAKSAAIYNPVIYIMMNKQFRNCMLTTICCGKNPLGDDEASATVSKTETSQVAPA
 Enter the calculation window size (number of residues used per iteration will be two times this value plus one):
 4
 ```
+![hydro](https://user-images.githubusercontent.com/47088251/202992108-a6ec78fa-b6c0-47ab-adb8-b2313748e3d2.jpg)
